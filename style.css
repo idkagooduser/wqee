@@ -1,0 +1,52 @@
+         
+                 
+         .btn-grad {
+          background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA  51%, #1D2B64  100%);
+          margin: 10px;
+          padding: 15px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          box-shadow: 0 0 20px #eee;
+          border-radius: 10px;
+          display: block;
+          font-family: 'Courier New', Courier, monospace;
+          font-weight: bold;
+          
+        }
+
+        .btn-grad:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+       
+
+        .btn-success{
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 20;
+        }  
+         
+.btn-success:hover{
+    background-color: #ff6e7f;
+    transform: scale(1.2);
+}
+
+canvas{
+    margin-top: 50px;
+    animation-name:YOULOOKLIKE;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes YOULOOKLIKE{
+   from{box-shadow:1px 1px 38px paleturquoise;} 
+   50%{box-shadow:1px 1px 38px lightcoral;} 
+   to{box-shadow:1px 1px 38px lightskyblue;} 
+}
+
+body{
+  background-size: cover;
+}
